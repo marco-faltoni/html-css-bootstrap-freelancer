@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 li p {
     display: inline-block;
 }
@@ -16,13 +20,14 @@ li p {
     font-weight: bold;
 }
 
-.h5 {
-    font-weight: bold;
-}
-
 
 header {
     background-color: #313e4f;
+}
+
+#nav-xs {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 section {
@@ -39,6 +44,31 @@ section {
 
 .immagine {
     padding: 55px 0px 15px 0px;
+}
+
+.stellina {
+    position: relative;
+}
+.line1 {
+    position: absolute;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 150px;
+    min-width: 100px;
+    top: 50%;
+    left: -126px;
+}
+
+.line2 {
+    position: absolute;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 150px;
+    min-width: 100px;
+    top: 50%;
+    margin-left: 40px;
 }
 
 .final-text {
