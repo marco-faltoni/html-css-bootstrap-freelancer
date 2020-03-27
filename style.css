@@ -16,6 +16,10 @@ li p {
     font-weight: bold;
 }
 
+.h5 {
+    font-weight: bold;
+}
+
 
 header {
     background-color: #313e4f;
@@ -39,4 +43,21 @@ section {
 
 .final-text {
     padding-bottom: 50px
+}
+
+.btn, .btn-default, .btn-xs {
+    background-color: #313e4f;
+}
+
+.glyphicon-menu-hamburger {
+    color: white;
+}
+
+.btn-default {
+    border-color: #313e4f;
+}
+
+.btn-default:hover {
+    border-color: none;
+    background-color: none;
 }

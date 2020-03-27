@@ -11,7 +11,7 @@
 
     <body>
         <header>
-            <div class="container">
+            <nav class="container hidden-xs">
                 <div class="row">
                     <div class="col-xs-12 col-sm-7 col-lg-7">
                         <p class="h3 text-uppercase">start bootstrap</p>
@@ -26,14 +26,25 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
+
+            <nav class="container visible-xs">
+                <div class="row">
+                    <div class="col-xs-7">
+                        <p class="h5 text-uppercase">start bootstrap</p>
+                    </div>
+                    <div class="col-xs-5 text-right">
+                            <button type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+            </nav>
         </header>
 
         <section>
             <div class="container">
                 <div class="row immagine">
                     <div class="col-xs-12">
-                        <img class="img-responsive .center-block" src="img/avatar.svg" alt="">
+                        <img class="img-responsive center-block" src="img/avatar.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -48,7 +59,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <p class="text-center">stellina</p>
+                        <img class="stellina img-responsive center-block" src="img/star.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -60,8 +71,6 @@
                 </div>
             </div>
         </section>
-
-
     </body>
 
 </html>
