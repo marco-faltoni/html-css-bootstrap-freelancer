@@ -1,0 +1,42 @@
+li p {
+    display: inline-block;
+}
+
+.lista {
+    margin-left: 5px;
+    font-weight: bold;
+    line-height: 4.5rem;
+}
+
+.h1 {
+    font-weight: bold;
+}
+
+.h3 {
+    font-weight: bold;
+}
+
+
+header {
+    background-color: #313e4f;
+}
+
+section {
+    background-color: #66ba9e;
+}
+
+.row {
+    color: white;
+}
+
+.img-responsive {
+    max-height: 200px;
+}
+
+.immagine {
+    padding: 55px 0px 15px 0px;
+}
+
+.final-text {
+    padding-bottom: 50px
+}
